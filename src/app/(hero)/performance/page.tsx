@@ -5,11 +5,13 @@ import React from 'react'
 const imgInfo = {
   imgUrl: '/images/performance.jpg',
   altText: 'performance',
-  content: 'performance',
+  content: 'performance modified content',
 }
 
 export default function Page() {
   return (
-    <Hero imgUrl={imgInfo.imgUrl} altTxt={imgInfo.altText} content={imgInfo.content}/>
+    <div>
+      <Hero imgUrl={imgInfo.imgUrl} altTxt={imgInfo.altText} content={imgInfo.content}/>
+    </div>
   )
 }
