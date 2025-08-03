@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ABeeZee, ADLaM_Display, Inter } from "next/font/google";
+import { ADLaM_Display } from "next/font/google";
 import "./globals.css";
 
 const inter = ADLaM_Display({
